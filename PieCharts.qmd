@@ -1,0 +1,141 @@
+---
+title: "PieCharts"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+library(ggplot2)
+library(magrittr) # needs to be run every time you start R and want to use %>%
+library(dplyr)    # alternatively, this also loads %>%
+library(readxl)
+library(ggforce)
+library(ggrepel)
+
+data = read_excel("2875_subcellular_localisation_withannotations_Fri.xlsx")
+```
+
+You can add options to executable code like this
+
+```{r}
+# Plotting pie chart by logFC - by positive and negative, then as nucleus or cyto
+
+# Define a function to test for keywords across multiple columns
+categorize_annotations <- function(row) {
+  combined_text <- paste(row$UniProt_Annotations, row$GO_Annotations, row$jensentableoutput, sep = " ")
+  case_when(
+    grepl("nucl|chromatin|chromosome", combined_text, ignore.case = TRUE) & 
+    grepl("cyto", combined_text, ignore.case = TRUE) ~ "nucleus and cytoplasm",
+    grepl("nucl|chromatin|chromosome", combined_text, ignore.case = TRUE) ~ "nucleus",
+    grepl("cyto", combined_text, ignore.case = TRUE) ~ "cytoplasm",
+    grepl("secreted | extracellular", combined_text, ignore.case = TRUE) ~ "secreted or extracellular",
+    TRUE ~ "other"
+  )
+}
+
+data <- data %>%
+  rowwise() %>%
+  mutate(group = categorize_annotations(cur_data_all())) %>%
+  ungroup()
+
+# Split data into positive and negative log2fc
+positive_data <- data %>% filter(log2FC > 0)
+negative_data <- data %>% filter(log2FC < 0)
+
+# Function to create pie chart data
+create_pie_data <- function(data) {
+  data %>%
+    count(group) %>%
+    mutate(percentage = n / sum(n) * 100)
+}
+
+# Create pie chart data for positive and negative subsets
+positive_pie <- create_pie_data(positive_data)
+negative_pie <- create_pie_data(negative_data)
+
+
+
+
+
+# Set up a layout with enough space for both pie charts
+par(mfrow = c(1, 2)) #, mar = c(5, 5, 2, 2))  # Adjust margins to prevent cutting off
+
+# Function to wrap text for pie chart labels
+wrap_labels <- function(labels, width = 10) {
+  sapply(labels, function(x) paste(strwrap(x, width = width), collapse = "\n"))
+}
+
+# Rqadius of 1 and cex of 0.5 is best - to not overlap the labels
+
+# Positive log2fc pie chart
+positive_labels <- wrap_labels(paste0(positive_pie$group, " (", round(positive_pie$percentage, 1), "%)"), width = 12)
+pie(positive_pie$percentage, 
+    labels = positive_labels,
+    main = "Positive log2fc",
+    col = rainbow(length(positive_pie$group)),  # Optional: add color to the pie chart
+    cex = 0.7,  # Reduce label size further
+    radius = 0.5)  # Move labels further out
+
+# Negative log2fc pie chart
+negative_labels <- wrap_labels(paste0(negative_pie$group, " (", round(negative_pie$percentage, 1), "%)"), width = 12)
+pie(negative_pie$percentage, 
+    labels = negative_labels,
+    main = "Negative log2fc",
+    col = rainbow(length(negative_pie$group)),  # Optional: add color to the pie chart
+    cex = 0.7,  # Reduce label size further
+    radius = 0.5)  # Move labels further out
+
+# Adjust title size and margins
+par(mfrow = c(1, 2), mar = c(5, 5, 4, 2))  # Increase top margin for title space
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+# Filter rows where the group is "other"
+other_group_data <- data %>% filter(group == "other")
+
+# View the table of rows in the "other" group
+print(other_group_data)
+
+# Optionally, save this data to a CSV file
+write.csv(other_group_data, "other_group_data.csv", row.names = FALSE)
+```
+
+```{r}
+
+
+# Create pie chart data for positive subset
+positive_pie <- create_pie_data(positive_data)
+
+# Plot pie chart using ggplot2
+# ggplot(positive_pie, aes(x = "", y = percentage, fill = group)) +
+#   geom_bar(stat = "identity", width = 1) +
+#   coord_polar(theta = "y") +  # Convert to pie chart
+#   theme_void() +  # Remove axis
+#   geom_text_repel(aes(y = angle, label = paste0(group, "\n", round(percentage, 1), "%")), 
+#             position = position_nudge(y = 0.05),  # Adjust label's position further out
+#             size = 4, color = "black") +
+#   ggtitle("Positive log2fc Pie Chart") +
+#   theme(legend.position = "none")  # Optional: Remove the legend
+
+ggplot(positive_pie) + 
+  aes(x = "", y = percentage, fill = group) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +  # Convert to pie chart
+  theme_void() +  # Remove axis
+  geom_text_repel(aes(y = angle, label = paste0(group, "\n", round(percentage, 1), "%")), 
+            position = position_nudge(y = 0.05),  # Adjust label's position further out
+            size = 4, color = "black") +
+  ggtitle("Positive log2fc Pie Chart") +
+  theme(legend.position="none")
+
+```

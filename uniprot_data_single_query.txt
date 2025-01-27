@@ -1,0 +1,334 @@
+UniProt Entry for Q96GR4:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0ID   ZDH12_HUMAN             Reviewed;         267 AA.
+AC   Q96GR4; A6NH95; B2RE03; Q5T265; Q5T267; Q5T268; Q86VT5; Q96T09;
+DT   01-FEB-2003, integrated into UniProtKB/Swiss-Prot.
+DT   20-FEB-2007, sequence version 2.
+DT   02-OCT-2024, entry version 163.
+DE   RecName: Full=Palmitoyltransferase ZDHHC12 {ECO:0000305};
+DE            EC=2.3.1.225 {ECO:0000269|PubMed:36586411};
+DE   AltName: Full=DHHC domain-containing cysteine-rich protein 12 {ECO:0000303|PubMed:16647879};
+DE            Short=DHHC-12 {ECO:0000303|PubMed:16647879};
+DE   AltName: Full=Zinc finger DHHC domain-containing protein 12 {ECO:0000312|HGNC:HGNC:19159};
+DE   AltName: Full=Zinc finger protein 400;
+GN   Name=ZDHHC12 {ECO:0000303|PubMed:36586411,
+GN   ECO:0000312|HGNC:HGNC:19159}; Synonyms=ZNF400;
+GN   ORFNames=PSEC0008 {ECO:0000312|EMBL:BAC11553.1};
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2), AND VARIANT
+RP   LEU-172.
+RC   TISSUE=Teratocarcinoma;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A., Sudo H.,
+RA   Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M., Takahashi M.,
+RA   Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y., Abe K., Kamihara K.,
+RA   Katsuta N., Sato K., Tanikawa M., Yamazaki M., Ninomiya K., Ishibashi T.,
+RA   Yamashita H., Murakawa K., Fujimori K., Tanai H., Kimata M., Watanabe M.,
+RA   Hiraoka S., Chiba Y., Ishida S., Ono Y., Takiguchi S., Watanabe S.,
+RA   Yosida M., Hotuta T., Kusano J., Kanehori K., Takahashi-Fujii A., Hara H.,
+RA   Tanase T.-O., Nomura Y., Togiya S., Komai F., Hara R., Takeuchi K.,
+RA   Arita M., Imose N., Musashino K., Yuuki H., Oshima A., Sasaki N.,
+RA   Aotsuka S., Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y., Fujimori Y.,
+RA   Komiyama M., Tashiro H., Tanigami A., Fujiwara T., Ono T., Yamada K.,
+RA   Fujii Y., Ozaki K., Hirao M., Ohmori Y., Kawabata A., Hikiji T.,
+RA   Kobatake N., Inagaki H., Ikema Y., Okamoto S., Okitani R., Kawakami T.,
+RA   Noguchi S., Itoh T., Shigeta K., Senba T., Matsumura K., Nakajima Y.,
+RA   Mizuno T., Morinaga M., Sasaki M., Togashi T., Oyama M., Hata H.,
+RA   Watanabe M., Komatsu T., Mizushima-Sugano J., Satoh T., Shirai Y.,
+RA   Takahashi Y., Nakagawa K., Okumura K., Nagase T., Nomura N., Kikuchi H.,
+RA   Masuho Y., Yamashita R., Nakai K., Yada T., Nakamura Y., Ohara O.,
+RA   Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2), AND VARIANT LEU-172.
+RC   TISSUE=Teratocarcinoma;
+RX   PubMed=16303743; DOI=10.1093/dnares/12.2.117;
+RA   Otsuki T., Ota T., Nishikawa T., Hayashi K., Suzuki Y., Yamamoto J.,
+RA   Wakamatsu A., Kimura K., Sakamoto K., Hatano N., Kawai Y., Ishii S.,
+RA   Saito K., Kojima S., Sugiyama T., Ono T., Okano K., Yoshikawa Y.,
+RA   Aotsuka S., Sasaki N., Hattori A., Okumura K., Nagai K., Sugano S.,
+RA   Isogai T.;
+RT   "Signal sequence and keyword trap in silico for selection of full-length
+RT   human cDNAs encoding secretion or membrane proteins from oligo-capped cDNA
+RT   libraries.";
+RL   DNA Res. 12:117-126(2005).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15164053; DOI=10.1038/nature02465;
+RA   Humphray S.J., Oliver K., Hunt A.R., Plumb R.W., Loveland J.E., Howe K.L.,
+RA   Andrews T.D., Searle S., Hunt S.E., Scott C.E., Jones M.C., Ainscough R.,
+RA   Almeida J.P., Ambrose K.D., Ashwell R.I.S., Babbage A.K., Babbage S.,
+RA   Bagguley C.L., Bailey J., Banerjee R., Barker D.J., Barlow K.F., Bates K.,
+RA   Beasley H., Beasley O., Bird C.P., Bray-Allen S., Brown A.J., Brown J.Y.,
+RA   Burford D., Burrill W., Burton J., Carder C., Carter N.P., Chapman J.C.,
+RA   Chen Y., Clarke G., Clark S.Y., Clee C.M., Clegg S., Collier R.E.,
+RA   Corby N., Crosier M., Cummings A.T., Davies J., Dhami P., Dunn M.,
+RA   Dutta I., Dyer L.W., Earthrowl M.E., Faulkner L., Fleming C.J.,
+RA   Frankish A., Frankland J.A., French L., Fricker D.G., Garner P.,
+RA   Garnett J., Ghori J., Gilbert J.G.R., Glison C., Grafham D.V., Gribble S.,
+RA   Griffiths C., Griffiths-Jones S., Grocock R., Guy J., Hall R.E.,
+RA   Hammond S., Harley J.L., Harrison E.S.I., Hart E.A., Heath P.D.,
+RA   Henderson C.D., Hopkins B.L., Howard P.J., Howden P.J., Huckle E.,
+RA   Johnson C., Johnson D., Joy A.A., Kay M., Keenan S., Kershaw J.K.,
+RA   Kimberley A.M., King A., Knights A., Laird G.K., Langford C., Lawlor S.,
+RA   Leongamornlert D.A., Leversha M., Lloyd C., Lloyd D.M., Lovell J.,
+RA   Martin S., Mashreghi-Mohammadi M., Matthews L., McLaren S., McLay K.E.,
+RA   McMurray A., Milne S., Nickerson T., Nisbett J., Nordsiek G., Pearce A.V.,
+RA   Peck A.I., Porter K.M., Pandian R., Pelan S., Phillimore B., Povey S.,
+RA   Ramsey Y., Rand V., Scharfe M., Sehra H.K., Shownkeen R., Sims S.K.,
+RA   Skuce C.D., Smith M., Steward C.A., Swarbreck D., Sycamore N., Tester J.,
+RA   Thorpe A., Tracey A., Tromans A., Thomas D.W., Wall M., Wallis J.M.,
+RA   West A.P., Whitehead S.L., Willey D.L., Williams S.A., Wilming L.,
+RA   Wray P.W., Young L., Ashurst J.L., Coulson A., Blocker H., Durbin R.M.,
+RA   Sulston J.E., Hubbard T., Jackson M.J., Bentley D.R., Beck S., Rogers J.,
+RA   Dunham I.;
+RT   "DNA sequence and analysis of human chromosome 9.";
+RL   Nature 429:369-374(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND VARIANT LEU-172.
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 3), AND VARIANT
+RP   LEU-172.
+RC   TISSUE=Mammary gland, and Uterus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=16647879; DOI=10.1016/j.bbalip.2006.03.010;
+RA   Ohno Y., Kihara A., Sano T., Igarashi Y.;
+RT   "Intracellular localization and tissue-specific distribution of human and
+RT   yeast DHHC cysteine-rich domain-containing proteins.";
+RL   Biochim. Biophys. Acta 1761:474-483(2006).
+RN   [7]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVE SITE, AND MUTAGENESIS OF CYS-127.
+RX   PubMed=36586411; DOI=10.1016/j.molcel.2022.12.002;
+RA   Wang L., Cai J., Zhao X., Ma L., Zeng P., Zhou L., Liu Y., Yang S., Cai Z.,
+RA   Zhang S., Zhou L., Yang J., Liu T., Jin S., Cui J.;
+RT   "Palmitoylation prevents sustained inflammation by limiting NLRP3
+RT   inflammasome activation through chaperone-mediated autophagy.";
+RL   Mol. Cell 0:0-0(2022).
+CC   -!- FUNCTION: Palmitoyltransferase that catalyzes the addition of palmitate
+CC       onto various protein substrates (PubMed:36586411). Has a
+CC       palmitoyltransferase activity toward gephyrin/GPHN, regulating its
+CC       clustering at synapses and its function in gamma-aminobutyric acid
+CC       receptor clustering (By similarity). Thereby, indirectly regulates
+CC       GABAergic synaptic transmission (By similarity). Acts as an inhibitor
+CC       of the NLRP3 inflammasome by mediating palmitoylation of NLRP3, thereby
+CC       promoting NLRP3 degradation by the chaperone-mediated autophagy (CMA)
+CC       process (PubMed:36586411). {ECO:0000250|UniProtKB:Q8VC90,
+CC       ECO:0000269|PubMed:36586411}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hexadecanoyl-CoA + L-cysteinyl-[protein] = CoA + S-
+CC         hexadecanoyl-L-cysteinyl-[protein]; Xref=Rhea:RHEA:36683, Rhea:RHEA-
+CC         COMP:10131, Rhea:RHEA-COMP:11032, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57379, ChEBI:CHEBI:74151;
+CC         EC=2.3.1.225; Evidence={ECO:0000269|PubMed:36586411};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36684;
+CC         Evidence={ECO:0000269|PubMed:36586411};
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:Q8VC90}; Multi-pass membrane protein
+CC       {ECO:0000255}. Endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:16647879}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q96GR4-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q96GR4-2; Sequence=VSP_006945;
+CC       Name=3;
+CC         IsoId=Q96GR4-3; Sequence=VSP_016271;
+CC   -!- TISSUE SPECIFICITY: Widely expressed. {ECO:0000269|PubMed:16647879}.
+CC   -!- DOMAIN: The DHHC domain is required for palmitoyltransferase activity.
+CC       {ECO:0000250|UniProtKB:Q8IUH5}.
+CC   -!- SIMILARITY: Belongs to the DHHC palmitoyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AK027430; BAB55104.1; -; mRNA.
+DR   EMBL; AK075332; BAC11553.1; -; mRNA.
+DR   EMBL; AK315746; BAG38100.1; -; mRNA.
+DR   EMBL; AL441992; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471090; EAW87826.1; -; Genomic_DNA.
+DR   EMBL; BC009280; AAH09280.1; -; mRNA.
+DR   EMBL; BC048251; AAH48251.1; -; mRNA.
+DR   CCDS; CCDS6909.1; -. [Q96GR4-1]
+DR   RefSeq; NP_001304944.1; NM_001318015.1. [Q96GR4-3]
+DR   RefSeq; NP_001304945.1; NM_001318016.1.
+DR   RefSeq; NP_001304949.1; NM_001318020.1.
+DR   RefSeq; NP_001304952.1; NM_001318023.1.
+DR   RefSeq; NP_116188.2; NM_032799.4. [Q96GR4-1]
+DR   AlphaFoldDB; Q96GR4; -.
+DR   SMR; Q96GR4; -.
+DR   BioGRID; 124326; 128.
+DR   IntAct; Q96GR4; 124.
+DR   MINT; Q96GR4; -.
+DR   STRING; 9606.ENSP00000361748; -.
+DR   iPTMnet; Q96GR4; -.
+DR   PhosphoSitePlus; Q96GR4; -.
+DR   SwissPalm; Q96GR4; -.
+DR   BioMuta; ZDHHC12; -.
+DR   DMDM; 126302619; -.
+DR   jPOST; Q96GR4; -.
+DR   MassIVE; Q96GR4; -.
+DR   PaxDb; 9606-ENSP00000361748; -.
+DR   PeptideAtlas; Q96GR4; -.
+DR   ProteomicsDB; 76657; -. [Q96GR4-1]
+DR   ProteomicsDB; 76658; -. [Q96GR4-2]
+DR   ProteomicsDB; 76659; -. [Q96GR4-3]
+DR   Pumba; Q96GR4; -.
+DR   Antibodypedia; 67200; 73 antibodies from 15 providers.
+DR   DNASU; 84885; -.
+DR   Ensembl; ENST00000372663.9; ENSP00000361748.4; ENSG00000160446.19. [Q96GR4-1]
+DR   GeneID; 84885; -.
+DR   KEGG; hsa:84885; -.
+DR   MANE-Select; ENST00000372663.9; ENSP00000361748.4; NM_032799.5; NP_116188.3.
+DR   UCSC; uc004bvy.4; human. [Q96GR4-1]
+DR   AGR; HGNC:19159; -.
+DR   CTD; 84885; -.
+DR   DisGeNET; 84885; -.
+DR   GeneCards; ZDHHC12; -.
+DR   HGNC; HGNC:19159; ZDHHC12.
+DR   HPA; ENSG00000160446; Low tissue specificity.
+DR   neXtProt; NX_Q96GR4; -.
+DR   OpenTargets; ENSG00000160446; -.
+DR   PharmGKB; PA38802; -.
+DR   VEuPathDB; HostDB:ENSG00000160446; -.
+DR   eggNOG; KOG1311; Eukaryota.
+DR   GeneTree; ENSGT00940000156902; -.
+DR   HOGENOM; CLU_031257_2_0_1; -.
+DR   InParanoid; Q96GR4; -.
+DR   OMA; FISPHRI; -.
+DR   OrthoDB; 6683at2759; -.
+DR   PhylomeDB; Q96GR4; -.
+DR   TreeFam; TF329809; -.
+DR   PathwayCommons; Q96GR4; -.
+DR   SignaLink; Q96GR4; -.
+DR   BioGRID-ORCS; 84885; 14 hits in 1153 CRISPR screens.
+DR   ChiTaRS; ZDHHC12; human.
+DR   GenomeRNAi; 84885; -.
+DR   Pharos; Q96GR4; Tdark.
+DR   PRO; PR:Q96GR4; -.
+DR   Proteomes; UP000005640; Chromosome 9.
+DR   RNAct; Q96GR4; protein.
+DR   Bgee; ENSG00000160446; Expressed in mucosa of transverse colon and 114 other cell types or tissues.
+DR   ExpressionAtlas; Q96GR4; baseline and differential.
+DR   GO; GO:0043197; C:dendritic spine; IDA:UniProt.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IDA:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; IDA:UniProtKB.
+DR   GO; GO:0000139; C:Golgi membrane; ISS:UniProt.
+DR   GO; GO:0016409; F:palmitoyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0019706; F:protein-cysteine S-palmitoyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0097116; P:gephyrin clustering involved in postsynaptic density assembly; IDA:UniProt.
+DR   GO; GO:1900226; P:negative regulation of NLRP3 inflammasome complex assembly; IDA:UniProtKB.
+DR   GO; GO:0018230; P:peptidyl-L-cysteine S-palmitoylation; ISS:UniProtKB.
+DR   GO; GO:0032230; P:positive regulation of synaptic transmission, GABAergic; ISS:UniProtKB.
+DR   GO; GO:0018345; P:protein palmitoylation; IDA:UniProtKB.
+DR   GO; GO:0006612; P:protein targeting to membrane; IBA:GO_Central.
+DR   InterPro; IPR001594; Palmitoyltrfase_DHHC.
+DR   PANTHER; PTHR22883:SF301; PALMITOYLTRANSFERASE ZDHHC12; 1.
+DR   PANTHER; PTHR22883; ZINC FINGER DHHC DOMAIN CONTAINING PROTEIN; 1.
+DR   Pfam; PF01529; DHHC; 1.
+DR   PROSITE; PS50216; DHHC; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Alternative splicing; Endoplasmic reticulum;
+KW   Golgi apparatus; Lipoprotein; Membrane; Palmitate;
+KW   Proteomics identification; Reference proteome; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..267
+FT                   /note="Palmitoyltransferase ZDHHC12"
+FT                   /id="PRO_0000212884"
+FT   TOPO_DOM        1..9
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        10..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        31..43
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        44..64
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        65..140
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        141..161
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        162..178
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        179..199
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        200..267
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          97..147
+FT                   /note="DHHC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00067"
+FT   ACT_SITE        127
+FT                   /note="S-palmitoyl cysteine intermediate"
+FT                   /evidence="ECO:0000305|PubMed:36586411"
+FT   VAR_SEQ         33
+FT                   /note="T -> TDKSADELLATHSHSWNQHLQAFAQPGTHFPTSNCTPTPPTPVLPGP
+FT                   ASLCSPASP (in isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_016271"
+FT   VAR_SEQ         189..240
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:14702039,
+FT                   ECO:0000303|PubMed:16303743"
+FT                   /id="VSP_006945"
+FT   VARIANT         69
+FT                   /note="P -> S (in dbSNP:rs2298039)"
+FT                   /id="VAR_023833"
+FT   VARIANT         172
+FT    100 17235  100 17235    0     0   454k      0 --:--:-- --:--:-- --:--:--  467k
+               /note="Q -> L (in dbSNP:rs2900268)"
+FT                   /evidence="ECO:0000269|PubMed:14702039,
+FT                   ECO:0000269|PubMed:15489334, ECO:0000269|PubMed:16303743,
+FT                   ECO:0000269|Ref.4"
+FT                   /id="VAR_023834"
+FT   MUTAGEN         127
+FT                   /note="C->S: Loss of protein-cysteine
+FT                   S-palmitoyltransferase activity."
+FT                   /evidence="ECO:0000269|PubMed:36586411"
+SQ   SEQUENCE   267 AA;  30813 MW;  7A98B39BDFE43940 CRC64;
+     MAPWALLSPG VLVRTGHTVL TWGITLVLFL HDTELRQWEE QGELLLPLTF LLLVLGSLLL
+     YLAVSLMDPG YVNVQPQPQE ELKEEQTAMV PPAIPLRRCR YCLVLQPLRA RHCRECRRCV
+     RRYDHHCPWM ENCVGERNHP LFVVYLALQL VVLLWGLYLA WSGLRFFQPW GQWLRSSGLL
+     FATFLLLSLF SLVASLLLVS HLYLVASNTT TWEFISSHRI AYLRQRPSNP FDRGLTRNLA
+     HFFCGWPSGS WETLWAEEEE EGSSPAV
+//
