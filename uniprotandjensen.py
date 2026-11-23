@@ -141,7 +141,7 @@ def subcellularlocalisations(file_path):
     df['jensentableoutput'] = Jensentableoutputs
 
     # Save to Excel
-    df.to_excel('2875_subcellular_localisation_withannotations.xlsx', index=False)
+    df.to_excel(str(file_path+'_withannotations.xlsx'), index=False)
     print("Processing complete. Data saved.")
 
 if __name__ == "__main__":
